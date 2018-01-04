@@ -1,0 +1,16 @@
+{
+  "homeCarousel": [
+    "/src/assets/images/banner640x386.jpg",
+    "/src/assets/images/4.jpg",
+    "/src/assets/images/5.jpg",
+    "/src/assets/images/6.jpg",
+    "/src/assets/images/7.jpg"
+  ],
+  "cashbackCarousel": [
+    "/src/assets/images/4.jpg",
+    "/src/assets/images/5.jpg",
+    "/src/assets/images/6.jpg",
+    "/src/assets/images/7.jpg",
+    "/src/assets/images/banner640x386.jpg"
+  ]
+}

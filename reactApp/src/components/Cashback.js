@@ -8,7 +8,8 @@ class Cashback extends React.Component {
   constructor() {
     super();
     this.state = {
-      title:'超级返'
+      title:'超级返',
+      cashbackCarousel:[]
     }
   }
   render() {
@@ -86,9 +87,7 @@ class Cashback extends React.Component {
               </li>
             </ul>
           </div>
-
-          <Carousel/>
-
+          <Carousel Carousel={this.state.cashbackCarousel}/>
           <div className="sort-list">
             <ul className="goods-all-tit-list clearfix">
               <li>
@@ -172,7 +171,20 @@ class Cashback extends React.Component {
         </div>
       </div>
     );
-  }
+  };
+
+  componentDidMount(){
+    this.getData();
+  };
+  getData(){
+    let url=`/data/carouselImg.json`;
+    fetch(url).then(
+      res => res.json()
+    ).then(
+      data => this.setState({cashbackCarousel:data.cashbackCarousel})
+    );
+    
+  };
 }
 
 export default Cashback;

@@ -7,18 +7,31 @@ class Home extends React.Component {
   constructor() {
     super();
     this.state = {
-      listData: []
+      homeCarousel:[]
     }
   }
-  render() {
+  render() { 
+    let homeCarousel = this.state.homeCarousel;
     return (
       <div className="home">
         <Header/>
-        <Carousel/>
+        <Carousel carousel={homeCarousel}/>
         <HomeContent/>
       </div>
     );
+  }; 
+  componentDidMount(){
+    this.props.router.replace('/home');
+    this.getData();
   }
+  getData(){
+    let url=`/data/carouselImg.json`;
+    fetch(url).then(
+      res => res.json()
+    ).then(
+      data => this.setState({homeCarousel:data.homeCarousel})
+    );
+  };
 }
 
 export default Home;

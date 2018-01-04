@@ -7,30 +7,12 @@ var cookieSession = require('cookie-session');
 var bodyParser = require('body-parser');
 var cors = require('cors');
 //此处添加请求的路由
-//router 文件夹内的js文件
+//routes 文件夹内的js文件
 var index = require('./routes/index');
 var users = require('./routes/users');
 var cards = require('./routes/cards');
 var speaks = require('./routes/speaks');
 var detail = require('./routes/detail');
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 var app = express();
@@ -59,7 +41,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 //配置cors中间件
 app.use(cors({
-  "origin": ["http://localhost:9527","http://localhost:5000","http://localhost:8001"],  //允许所有前端域名
+  "origin": ["http://localhost:3000","http://localhost:5000","http://localhost:8001"],  //允许所有前端域名
   "credentials":true,
   "methods": "GET,HEAD,PUT,PATCH,POST,DELETE", //被允许的提交方式
   "allowedHeaders":['Content-Type','Authorization']//被允许的post方式的请求头
@@ -75,19 +57,6 @@ app.use('/users', users);
 app.use('/cards', cards);
 app.use('/speaks', speaks);
 app.use('/detail', detail);
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
