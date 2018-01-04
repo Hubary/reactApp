@@ -7,7 +7,7 @@ class Header extends React.Component {
         if ($(document).scrollTop() > 100) {
           $(".home .header").css({'background-color': '#dd2727', 'transition': '0.4s'});
         } else {
-          $(".home .header").css({'background-color': 'transparent', 'transition': '0.4s'});
+          $(".home .header").css({'background-color': 'rgba(0,0,0,0)','transition': '0.4s'});
         }
       });
   }

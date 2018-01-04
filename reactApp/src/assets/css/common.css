@@ -1086,7 +1086,6 @@ ul.shopcart-item li .check-box label {
 .banner-pics-list li a img {
 	display:block;
 	width:100%;
-	/* height: 100%; */
 }
 .banner-tit {
 	position:absolute;
@@ -1806,7 +1805,8 @@ border-right:none;
 	border-radius:5px;
 }
 /*超级返*/
-
+.cash-back-group {
+}
 .cash-back-item {
 	background-color:#FFF;
 	border-bottom:1px solid #dddddd;

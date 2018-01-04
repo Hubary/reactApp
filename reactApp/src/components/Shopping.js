@@ -1,5 +1,5 @@
 import React from 'react';
-import Banner from "./Banner";
+import Carousel from "./Carousel";
 import HomeContent from "./HomeContent";
 import Header1 from './Header1';
 // import {connect} from "react-redux";

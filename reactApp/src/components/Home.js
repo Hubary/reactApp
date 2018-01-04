@@ -1,5 +1,5 @@
 import React from "react";
-import Banner from "./Banner";
+import Carousel from "./Carousel";
 import HomeContent from "./HomeContent";
 import Header from './Header';
 // import {connect} from "react-redux";
@@ -14,7 +14,7 @@ class Home extends React.Component {
     return (
       <div className="home">
         <Header/>
-        <Banner/>
+        <Carousel/>
         <HomeContent/>
       </div>
     );

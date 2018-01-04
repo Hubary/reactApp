@@ -1,5 +1,5 @@
 import React from "react";
-import Banner from "./Banner";
+import Carousel from "./Carousel";
 import HomeContent from "./HomeContent";
 import Header1 from './Header1';
 import "../assets/css/cashback.css"
@@ -15,7 +15,7 @@ class Cashback extends React.Component {
     return (
       <div>
         <Header1 title={this.state.title}/>
-        <div className="mui-content">
+        <div className="mui-content" style={{paddingBottom:"60px"}}>
           <div className="nav-out">
             <div className="hot-pro-nav">
               <div className="mui-scroll-wrapper">
@@ -87,7 +87,7 @@ class Cashback extends React.Component {
             </ul>
           </div>
 
-          <Banner/>
+          <Carousel/>
 
           <div className="sort-list">
             <ul className="goods-all-tit-list clearfix">

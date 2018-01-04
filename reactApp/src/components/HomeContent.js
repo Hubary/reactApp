@@ -2,7 +2,7 @@ import React from "react";
 class HomeContent extends React.Component {
   render() {
     return (
-      <div className="mui-content">
+      <div className="mui-content" style={{paddingTop:"0px",paddingBottom:"60px"}}>
         <div className="m-b-b-group clearfix">
           <div className="fl">
             <a

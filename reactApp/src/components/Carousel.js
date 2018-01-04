@@ -1,6 +1,6 @@
 import React from "react";
 import mui from '../assets/js/mui.min.js'
-class Banner extends React.Component {
+class Carousel extends React.Component {
   componentDidMount() {
     TouchSlide({
       slideCell: "#index-banner", 
@@ -40,4 +40,4 @@ class Banner extends React.Component {
     );
   }
 }
-export default Banner;
+export default Carousel;
