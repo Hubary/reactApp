@@ -14,6 +14,7 @@ import Cashback from './components/Cashback';
 import Shopping from './components/Shopping';
 import Reg from './components/Reg';
 import Login from './components/Login';
+import Setting from './components/Setting';
 // import Login from './components/Login'; import Reg from './components/Reg';
 import Error from './components/Error';
 //路由配置
@@ -27,6 +28,7 @@ const RouterConfig = () => (
       <Route path="my" component={My}/>
       <Route path="reg" component={Reg}/>
       <Route path="login" component={Login}/>
+      <Route path="setting" component={Setting}/>
       <Route path="*" component={Error}/>
     </Route>
   </Router>

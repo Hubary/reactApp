@@ -9,10 +9,17 @@ class Cashback extends React.Component {
     super();
     this.state = {
       title:'超级返',
-      cashbackCarousel:[]
+      cashbackCarousel:[
+        "/src/assets/images/banner640x386.jpg",
+        "/src/assets/images/7.jpg",
+        "/src/assets/images/6.jpg",
+        "/src/assets/images/5.jpg",
+        "/src/assets/images/4.jpg",
+      ]
     }
   }
   render() {
+    console.log(this.state.cashbackCarousel)
     return (
       <div>
         <Header1 title={this.state.title}/>
@@ -45,15 +52,6 @@ class Cashback extends React.Component {
                   <li>
                     <a href="javascript:void(0)">居家</a>
                   </li>
-                  <li>
-                    <a href="javascript:void(0)">食品</a>
-                  </li>
-                  <li>
-                    <a href="javascript:void(0)">全部</a>
-                  </li>
-                  <li>
-                    <a href="javascript:void(0)">服饰</a>
-                  </li>
                 </ul>
               </div>
             </div>
@@ -69,25 +67,12 @@ class Cashback extends React.Component {
               </li>
               <li>
                 <a href="javascript:void(0)">全部</a>
-              </li>
-              <li>
-                <a href="javascript:void(0)">全部</a>
-              </li>
-              <li>
-                <a href="javascript:void(0)">全部</a>
-              </li>
-              <li>
-                <a href="javascript:void(0)">全部</a>
-              </li>
-              <li>
-                <a href="javascript:void(0)">全部</a>
-              </li>
-              <li>
-                <a href="javascript:void(0)">全部</a>
-              </li>
+              </li>       
             </ul>
           </div>
-          <Carousel Carousel={this.state.cashbackCarousel}/>
+
+          <Carousel carousel ={this.state.cashbackCarousel}/>
+
           <div className="sort-list">
             <ul className="goods-all-tit-list clearfix">
               <li>
@@ -173,7 +158,7 @@ class Cashback extends React.Component {
     );
   };
 
-  componentDidMount(){
+/*   componentDidMount(){
     this.getData();
   };
   getData(){
@@ -184,7 +169,7 @@ class Cashback extends React.Component {
       data => this.setState({cashbackCarousel:data.cashbackCarousel})
     );
     
-  };
+  }; */
 }
 
 export default Cashback;

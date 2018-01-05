@@ -105,127 +105,17 @@ class HomeContent extends React.Component {
           </div>
         </div>
 
-        <div className="ind-pro-list">
-          <div className="ind-pro-list-img">
-            <a href="Cash-back-details.html">
-              <img src="/src/assets/images/ind-pro-list-img.jpg"/></a>
-            <span className="cart-btn">
-              <a href="Cash-back-details.html"></a>
-            </span>
-          </div>
-          <div className="ind-pro-list-txt">
-            <p>冻龄肌秘密，欧莱雅玻尿酸系列25岁是女孩跨入女人的阶段，也是女生最美好的时期。爱情事业都处于双赢时刻，但同时伴随的困扰就是，肌肤初老症状开始出现。新陈代谢慢了，皮肤也总觉得缺水，且干纹细纹都开始出现。就是因为玻尿酸的流失哦！！玻尿酸在护肤中一直很受追捧，相信很多姑娘冻龄肌秘密，欧莱雅玻尿酸系列25岁是女孩跨入女人的阶段，也是女生最美好的时期。爱情事业都处于双赢时刻，但同时伴随的困扰就是，肌肤初老症状开始出现。新陈代谢慢了，皮肤也总觉得缺水，且干纹细纹都开始出现。就是因为玻尿酸的流失哦！！玻尿酸在护肤中一直很受追捧，相信很多姑娘</p>
-            <span className="ind-more-btn"></span>
-          </div>
-          <div className="relation-list">
-            <h2>关联推荐</h2>
-            <ul className="clearfix">
-              <li>
-                <a href="#">
-                  <span>编辑精选</span>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <span>个护彩妆</span>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <span>玉兰油</span>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div className="ind-pro-tips">
-            <span className="ind-guanzhu">263</span>
-            <span className="ind-shoucang">128</span>
-            <span className="ind-fenxiang">分享</span>
-          </div>
-        </div>
-
-        <div className="ind-pro-list">
-          <div className="ind-pro-list-img">
-            <a href="Cash-back-details.html">
-              <img src="/src/assets/images/ind-pro-list-img.jpg"/></a>
-            <span className="cart-btn">
-              <a href="Cash-back-details.html"></a>
-            </span>
-          </div>
-          <div className="ind-pro-list-txt">
-            <p>冻龄肌秘密，欧莱雅玻尿酸系列25岁是女孩跨入女人的阶段，也是女生最美好的时期。爱情事业都处于双赢时刻，但同时伴随的困扰就是，肌肤初老症状开始出现。新陈代谢慢了，皮肤也总觉得缺水，且干纹细纹都开始出现。就是因为玻尿酸的流失哦！！玻尿酸在护肤中一直很受追捧，相信很多姑娘冻龄肌秘密，欧莱雅玻尿酸系列25岁是女孩跨入女人的阶段，也是女生最美好的时期。爱情事业都处于双赢时刻，但同时伴随的困扰就是，肌肤初老症状开始出现。新陈代谢慢了，皮肤也总觉得缺水，且干纹细纹都开始出现。就是因为玻尿酸的流失哦！！玻尿酸在护肤中一直很受追捧，相信很多姑娘</p>
-            <span className="ind-more-btn"></span>
-          </div>
-          <div className="relation-list">
-            <h2>关联推荐</h2>
-            <ul className="clearfix">
-              <li>
-                <a href="#">
-                  <span>编辑精选</span>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <span>个护彩妆</span>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <span>玉兰油</span>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div className="ind-pro-tips">
-            <span className="ind-guanzhu on">263</span>
-            <span className="ind-shoucang on">128</span>
-            <span className="ind-fenxiang on">分享</span>
-          </div>
-        </div>
-
-        <div className="ind-pro-list">
-          <div className="ind-pro-list-img">
-            <a href="Cash-back-details.html">
-              <img src="/src/assets/images/ind-pro-list-img.jpg"/></a>
-            <span className="cart-btn">
-              <a href="Cash-back-details.html"></a>
-            </span>
-          </div>
-          <div className="ind-pro-list-txt">
-            <p>冻龄肌秘密，欧莱雅玻尿酸系列25岁是女孩跨入女人的阶段，也是女生最美好的时期。爱情事业都处于双赢时刻，但同时伴随的困扰就是，肌肤初老症状开始出现。新陈代谢慢了，皮肤也总觉得缺水，且干纹细纹都开始出现。就是因为玻尿酸的流失哦！！玻尿酸在护肤中一直很受追捧，相信很多姑娘冻龄肌秘密，欧莱雅玻尿酸系列25岁是女孩跨入女人的阶段，也是女生最美好的时期。爱情事业都处于双赢时刻，但同时伴随的困扰就是，肌肤初老症状开始出现。新陈代谢慢了，皮肤也总觉得缺水，且干纹细纹都开始出现。就是因为玻尿酸的流失哦！！玻尿酸在护肤中一直很受追捧，相信很多姑娘</p>
-            <span className="ind-more-btn"></span>
-          </div>
-          <div className="relation-list">
-            <h2>关联推荐</h2>
-            <ul className="clearfix">
-              <li>
-                <a href="#">
-                  <span>编辑精选</span>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <span>个护彩妆</span>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <span>玉兰油</span>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div className="ind-pro-tips">
-            <span className="ind-guanzhu">263</span>
-            <span className="ind-shoucang">128</span>
-            <span className="ind-fenxiang">分享</span>
-          </div>
-        </div>
-
       </div>
     );
   }
   componentDidMount() {
+    let url = "/data/index.data";
+    fetch(url)
+      .then(res => res.json())
+      .then(
+      // data => console.log(data[0].src)
+      data => this.setState({ homeCarousel: data[0].src })
+      );
     $(".ind-pro-list")
       .each(function () {
         var self = $(this);
